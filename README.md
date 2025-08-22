@@ -29,7 +29,7 @@ A small e-commerce web application built with **Next.js** for managing and displ
 
 ```bash
 git clone https://github.com/leerasabrina/next-project.git
-cd mini-vegetable-shop
+cd last
 
 
 ## Getting Started
