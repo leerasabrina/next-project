@@ -28,7 +28,7 @@ A small e-commerce web application built with **Next.js** for managing and displ
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/mini-vegetable-shop.git
+git clone https://github.com/leerasabrina/next-project.git
 cd mini-vegetable-shop
 
 
@@ -46,5 +46,5 @@ pnpm dev
 bun dev
 ```
 
-Open [https://last-cbsrzbd1d-sabrina-hossains-projects.vercel.app/](https://last-cbsrzbd1d-sabrina-hossains-projects.vercel.app/) with your browser to see the result.
+Open [https://last-olive-alpha.vercel.app/](https://last-olive-alpha.vercel.app/) with your browser to see the result.
 

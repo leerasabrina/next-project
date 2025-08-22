@@ -31,7 +31,7 @@ export async function POST(req) {
     
     const parsedPrice = Number(price);
 
-    // NaN check (যদি string বা ভুল ইনপুট আসে)
+    
     if (isNaN(parsedPrice)) {
       return NextResponse.json({ error: "Price must be a number" }, { status: 400 });
     }
