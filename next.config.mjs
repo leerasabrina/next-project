@@ -1,4 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// next.config.mjs
 
-export default nextConfig;
+export default {
+  experimental: {
+    css: {
+      optimize: false // Disable LightningCSS to avoid native binary issues
+    }
+  }
+}
