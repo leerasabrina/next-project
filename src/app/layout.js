@@ -9,7 +9,7 @@ export const metadata = { title: "Mini Shop", description: "Next.js mini shop" }
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className="bg-white text-black dark:bg-gray-900 dark:text-white">
         <Providers>
           <Toaster position="top-center" />
           <Navbar />

@@ -38,17 +38,17 @@ export default function Navbar() {
 
   const toggleTheme = () => {
     setTheme(nextTheme);
-    document.documentElement.classList.toggle("dark");
+    // document.documentElement.classList.toggle("dark");
   };
 
   return (
     <nav className="sticky top-0 shadow bg-white dark:bg-gray-900 z-50">
-      <div className="flex justify-between items-center py-4 px-4 lg:px-[200px]">
+      <div className="flex justify-between items-center py-2 px-4 lg:px-[200px]">
         {/* Logo */}
         <Link
           href="/"
           onClick={handleClick}
-          className="text-2xl font-bold text-blue-600  w-[200px] dark:text-blue-400"
+          className="text-2xl font-bold text-blue-60 w-[200px] dark:text-blue-400"
         >
           🏡 <span>Mini Shop</span>
 

@@ -2,7 +2,9 @@ import ProductCard from "@/components/ProductCard";
 import AddProductForm from "@/components/AddProductForm";
 
 async function fetchProducts() {
-  const res = await fetch(`http://localhost:3000/api/products`, { cache: "no-store" });
+//   const res = await fetch(`https://last-cnepb3lix-sabrina-hossains-projects.vercel.app/api/products`, { cache: "no-store" });
+const res = await fetch("/api/products", { cache: "no-store" });
+
   return res.json();
 }
 
